@@ -4,7 +4,7 @@ Landing page da **Festa de Cristo Rei** (17 a 22 de novembro de 2026), da Comuni
 
 ![Prévia da página](docs/preview-desktop.png)
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **Programação dia a dia:** tema da missa, pregador, convidados de honra, bênçãos e ação social de cada noite
 - **Sabor do dia** com foto, preço e botão de encomenda que abre o WhatsApp com a mensagem já escrita
@@ -12,7 +12,7 @@ Landing page da **Festa de Cristo Rei** (17 a 22 de novembro de 2026), da Comuni
 - **Doação via Pix:** QR Code e botão "Copiar chave"
 - Layout responsivo (celular, tablet e desktop), com a identidade visual dos cards da paróquia
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML5 semântico
 - CSS3 (Flexbox, Grid, `clamp()` para tipografia fluida)
@@ -20,7 +20,7 @@ Landing page da **Festa de Cristo Rei** (17 a 22 de novembro de 2026), da Comuni
 - Fonte Outfit (Google Fonts) e ícones em SVG inline
 - Hospedagem: Cloudflare Pages
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 festa-cristo-rei/
@@ -29,7 +29,7 @@ festa-cristo-rei/
 └── docs/           # Imagens de prévia do README
 ```
 
-## ⚙️ Como configurar
+## Como configurar
 
 WhatsApp, chave Pix e mensagens ficam no objeto `CONFIG`, no `<script>` do fim do `index.html`:
 
@@ -44,10 +44,10 @@ const CONFIG = {
 
 Para trocar o QR Code do Pix, substitua `img/pix-qrcode.png` mantendo o mesmo nome.
 
-## ▶️ Como rodar localmente
+## Como rodar localmente
 
 Não há dependências nem etapa de build: basta abrir o `index.html` no navegador ou usar a extensão **Live Server** no VS Code.
 
-## 👩‍💻 Autora
+## Autora
 
 Desenvolvido por **Katia Dutra**, estudante de Tecnologia em Sistemas para Internet.
